@@ -46,16 +46,26 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am currently a first-year student pursuing a Bachelor of Applied Science (BASc) in Computer 
-        Engineering at the University of Waterloo.
-
-        As a passionate and detail-oriented programmer with 2 years of experience in software development, I have honed 
-        my skills in full-stack web development, database design, and agile development methodologies. My dedication to 
-        efficiency, scalability, and clean code, combined with my ability to troubleshoot and debug complex issues, has 
-        allowed me to successfully deliver several high-quality projects that have increased user engagement.
-
-        I am committed to continuous learning and improvement, and I am eager to leverage my skills and experience to 
-        contribute to the development of innovative software solutions that solve real-world problems.
+        I am a first-year student pursuing a Bachelor of Applied Sciences (BASc) at the University of Waterloo. 
+        I am a driven and enthusiastic individual with a passion for exploring the intersection between 
+        technology and social impact.
+        <p>&nbsp;</p>
+        I have always had a strong academic background and a natural curiosity for problem-solving. 
+        As a result, I am constantly seeking out opportunities to develop my skills and broaden my horizons. 
+        Whether it's through participating in hackathons or volunteering with local non-profit organizations, 
+        I am always looking for ways to apply my knowledge and expertise to create positive change 
+        in my community.
+        <p>&nbsp;</p>
+        One thing that sets me apart is my unique perspective on the role of technology in society. 
+        While many people view technology as a tool for personal convenience or entertainment, 
+        I see it as a powerful force for social good. I believe that by leveraging the latest advances
+        in technology, we can tackle some of the most pressing challenges facing our world today, 
+        from climate change to economic inequality.
+        <p>&nbsp;</p>
+        Through my website, I hope to showcase my skills, accomplishments, 
+        and passion for using technology to make a difference. 
+        Whether you're a potential employer, collaborator, or fellow changemaker, 
+        I invite you to explore my work and connect with me to learn more.
 
       </motion.p>
 
