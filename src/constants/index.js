@@ -26,6 +26,13 @@ import {
   } from "../assets";
   
 import flowboat_logo from "../assets/company/flowboat_logo.png"
+import stride_logo from "../assets/company/stride_logo.png";
+import University_of_Waterloo_seal from "../assets/company/University_of_Waterloo_seal.png";
+import hushlogo from "../assets/company/hushlogo.png";
+
+import theia_landing from "../assets/company/theia_landing.png";
+import ts_test from "../assets/company/ts_test.png";
+import ss_gamee from "../assets/company/ss_gamee.png"
 
   export const navLinks = [
     {
@@ -48,15 +55,15 @@ import flowboat_logo from "../assets/company/flowboat_logo.png"
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Engineer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Entrepreneur",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Graphic Designer",
       icon: creator,
     },
   ];
@@ -106,55 +113,54 @@ import flowboat_logo from "../assets/company/flowboat_logo.png"
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Member",
+      company_name: "Flowboat",
       icon: flowboat_logo,
       iconBg: "#E6DEDD",
-      date: "March 2020 - April 2021",
+      date: "October 2020 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created a platform called Stride that allows athletes of any skill level to join/create recreational sports games within their local community with ease.",
+        "Semi Finalists in the International Diamond Challenge Pitching Competition, where we pitched our startup to judges and investors.",
+        "Won 3rd Place in the Flowboat Annual Pitching Competition.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Co-Founder",
+      company_name: "Stride",
+      icon: stride_logo,
+      iconBg: "#000000",
+      date: "January 2021 - February 2022",
+      points: [
+        "Co-founded and launched Stride, an online platform connecting athletes for recreational sports games. Developed the product concept, value proposition, and go-to-market strategy.",
+        "Conducted extensive market research to identify target user demographics, preferences, and behaviors. Analyzed competition, market trends, and user feedback to guide product development and marketing decisions.",
+        "Designed the architecture and functionality of the Stride web application using HTML, CSS, and JavaScript. Managed product backlog and prioritized features using Agile methodologies.",
+
+      ],
+    },
+    {
+      title: "Front-End Developer",
+      company_name: "Hush Audiologies",
+      icon: hushlogo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained the company's website using HTML, CSS, and JavaScript. Designed and implemented user-friendly interfaces and responsive layouts to optimize the user experience.",
+        "Conducted website analytics and created reports to analyze user behavior and optimize website performance. Used tools like Google Analytics to identify trends and insights to improve the website's user experience and conversions.",
+        "Implemented a visually compelling and responsive design while ensuring seamless cross-browser compatibility.",
+
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Project Team Leader - We Accelerate",
+      company_name: "University of Waterloo",
+      icon: University_of_Waterloo_seal,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "January 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and implemented a caregiver support program for individuals managing complex illnesses, leveraging strong communication and collaboration skills to coordinate with healthcare professionals.",
+        "Conducted comprehensive evaluations of existing care plans for patients with complex illnesses, identifying areas for improvement and advising on best practices, which contributed to a 15% decrease in hospital readmissions and enhanced quality of life for patients and their families.",
+        "Coordinated and supervised a multidisciplinary team focused on addressing the unique challenges of complex illness management, fostering a collaborative environment that encouraged knowledge-sharing and innovative problem-solving, resulting in the successful completion of two pilot programs and expansion to additional communities.",
+        "Obtained proficiency in Microsoft Azure and Azure AI fundamentals.",
       ],
     },
   ];
@@ -188,67 +194,70 @@ import flowboat_logo from "../assets/company/flowboat_logo.png"
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Theia",
+      url: "theiaocular.herokuapp.com" ,
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This web application is able to analyze a fundus photograph of a patients eye, and returns a bar graph containing the likelyhood of the patient having an ocular disease.",
       tags: [
         {
-          name: "react",
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "Python",
+          color: "text-yellow-300",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: theia_landing,
+      source_code_link: "https://github.com/talhaamir12/Theia",
     },
     {
-      name: "Job IT",
+      name: "Typing Speed Test",
+      url: "https://replit.com/@Amirix/Final-Project-Typing-Speed-Test",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This typing speed game is a user-friendly tool to measure and improve typing skills. Users type out a random passage and get their WPM and accuracy percentage.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
+          name: "Python",
           color: "green-text-gradient",
+          
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "Pygame",
+          color: "blue-text-gradient"
         },
+
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ts_test,
+      source_code_link: "https://github.com/talhaamir12/Typing-Speed-Test",
     },
     {
-      name: "Trip Guide",
+      name: "2048",
+      url: "https://talhaamir12.github.io/2048/",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A simple 2048 game with HTML, CSS, and JavaScript, and a dark theme and different tile colours. The maximum number that can be displayed is 65536.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML/CSS",
+          color: "pink-text-gradient",
+          
+        },
+
+        {
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ss_gamee,
+      source_code_link: "https://github.com/talhaamir12/2048",
     },
   ];
   
