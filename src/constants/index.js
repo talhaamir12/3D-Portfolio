@@ -33,6 +33,7 @@ import hushlogo from "../assets/company/hushlogo.png";
 import theia_landing from "../assets/company/theia_landing.png";
 import ts_test from "../assets/company/ts_test.png";
 import ss_gamee from "../assets/company/ss_gamee.png"
+import ss_stride from "../assets/company/ss_stride.png";
 
   export const navLinks = [
     {
@@ -218,6 +219,31 @@ import ss_gamee from "../assets/company/ss_gamee.png"
       ],
       image: theia_landing,
       source_code_link: "https://github.com/talhaamir12/Theia",
+    },
+    {
+      name: "Stride",
+      url: "https://6kvme6-5173.csb.app/",
+      description:
+        "Stride connects sports enthusiasts of all levels. Find games, teams, and training partners. Create groups, schedule games, and communicate with like-minded players.",
+      tags: [
+        {
+          name: "HTML/CSS",
+          color: "pink-text-gradient",
+          
+        },
+
+        {
+          name: "React",
+          color: "text-teal-300",
+        },
+
+        {
+          name: "Spline",
+          color: "text-fuchsia-500",
+        }
+      ],
+      image: ss_stride,
+      source_code_link: "https://github.com/talhaamir12/Stride",
     },
     {
       name: "Typing Speed Test",
