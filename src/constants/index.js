@@ -34,6 +34,7 @@ import theia_landing from "../assets/company/theia_landing.png";
 import ts_test from "../assets/company/ts_test.png";
 import ss_gamee from "../assets/company/ss_gamee.png"
 import ss_stride from "../assets/company/ss_stride.png";
+import ss_safespace from "../assets/company/ss_safespace.png"
 
   export const navLinks = [
     {
@@ -246,6 +247,36 @@ import ss_stride from "../assets/company/ss_stride.png";
       source_code_link: "https://github.com/talhaamir12/Stride",
     },
     {
+      name: "Safe Space",
+      url: "https://safespace.herokuapp.com",
+      description:
+        "Safespace is a secure online platform for discussing mental health. It utilizes Machine Learning to filter out toxic posts and promote a safe and supportive community.",
+      tags: [
+        {
+          name: "HTML/CSS",
+          color: "pink-text-gradient",
+          
+        },
+
+        {
+          name: "React",
+          color: "text-teal-300",
+        },
+
+        {
+          name: "Firebase",
+          color: "text-orange-500",
+        },
+
+        {
+          name: "TensorFlow",
+          color: "text-lime-500",
+        }
+      ],
+      image: ss_safespace,
+      source_code_link: "https://github.com/talhaamir12/Stride",
+    },
+    {
       name: "Typing Speed Test",
       url: "https://replit.com/@Amirix/Final-Project-Typing-Speed-Test",
       description:
@@ -253,7 +284,7 @@ import ss_stride from "../assets/company/ss_stride.png";
       tags: [
         {
           name: "Python",
-          color: "green-text-gradient",
+          color: "text-yellow-300",
           
         },
         {
@@ -279,7 +310,7 @@ import ss_stride from "../assets/company/ss_stride.png";
 
         {
           name: "JavaScript",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: ss_gamee,
